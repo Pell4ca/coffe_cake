@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f2ece1;
+    color: #333;
+    font-family: 'Meiryo', 'Hiragino Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+iframe {
+    vertical-align: bottom;
+}
+/* ヘッダーエリアの作成 */
+#header-area {
+    display: flex;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#header-area .header {
+    max-width: 130px;
+}
+
+#header-area .header .logo {
+    margin-bottom: 50px;
+}
+
+#header-area .header .logo a {
+    display: block;
+}
+
+#header-area .header .navi .menu li {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
